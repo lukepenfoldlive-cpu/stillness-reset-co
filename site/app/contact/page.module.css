@@ -1,0 +1,279 @@
+.section {
+  background: var(--contact-brown);
+  padding: 160px 80px 100px;
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 132px 24px 72px;
+  }
+}
+
+.grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+.heading {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(32px, 3.5vw, 50px);
+  font-weight: 300;
+  line-height: 1.12;
+  color: var(--cream);
+  margin: 0 0 24px;
+}
+
+.heading em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.lede {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.82;
+  color: rgba(250, 248, 243, 0.58);
+  margin: 0 0 44px;
+}
+
+.contactItems {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contactIcon {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(107, 146, 114, 0.32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contactLabel {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(250, 248, 243, 0.32);
+  margin-bottom: 2px;
+}
+
+.contactValue {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgba(250, 248, 243, 0.72);
+  transition: color 0.2s;
+}
+
+.contactValue:hover {
+  color: var(--gold);
+}
+
+.bookingBox {
+  margin-top: 48px;
+  padding: 28px;
+  border: 1px solid rgba(212, 168, 83, 0.25);
+  background: rgba(212, 168, 83, 0.06);
+}
+
+.bookingLabel {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #7daf88;
+  margin-bottom: 12px;
+}
+
+.bookingBody {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.78;
+  color: rgba(250, 248, 243, 0.52);
+  margin: 0 0 20px;
+}
+
+.bookingLink {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--ink);
+  padding: 12px 28px;
+  font-family: var(--font-jost), sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: background 0.2s;
+}
+
+.bookingLink:hover {
+  background: var(--gold-dark);
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.typeToggle {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.typeBtn {
+  flex: 1;
+  padding: 13px 20px;
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: rgba(250, 248, 243, 0.55);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.typeBtn:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--cream);
+}
+
+.typeBtnActive,
+.typeBtnActive:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 767px) {
+  .formRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.field label {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(250, 248, 243, 0.42);
+}
+
+.field input,
+.field textarea,
+.field select {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--cream);
+  padding: 13px 15px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: var(--font-jost), sans-serif;
+}
+
+.field select {
+  background: rgba(62, 36, 16, 0.95);
+  color: rgba(250, 248, 243, 0.65);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+  border-color: rgba(212, 168, 83, 0.65);
+}
+
+.submitBtn {
+  background: var(--gold);
+  color: var(--ink);
+  padding: 16px 40px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 8px;
+  transition: background 0.2s, transform 0.2s;
+  font-family: var(--font-jost), sans-serif;
+}
+
+.submitBtn:hover {
+  background: var(--gold-dark);
+  transform: translateY(-2px);
+}
+
+.successBox {
+  background: rgba(107, 146, 114, 0.11);
+  border: 1px solid rgba(107, 146, 114, 0.28);
+  padding: 52px 40px;
+  text-align: center;
+}
+
+.successHeading {
+  font-family: var(--font-cormorant), serif;
+  font-size: 38px;
+  font-weight: 300;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.successBody {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.82;
+  color: rgba(250, 248, 243, 0.62);
+  margin: 0;
+}
