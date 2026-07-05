@@ -1,0 +1,113 @@
+.about {
+  background: var(--cream);
+  padding: 160px 80px 100px;
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 132px 24px 72px;
+  }
+}
+
+.grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+.portraitWrap {
+  position: relative;
+}
+
+.portrait {
+  aspect-ratio: 3 / 4;
+  background: var(--off-white-soft);
+  overflow: hidden;
+  position: relative;
+}
+
+.portraitCornerH {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 52px;
+  height: 3px;
+  background: var(--gold);
+}
+
+.portraitCornerV {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  height: 52px;
+  background: var(--gold);
+}
+
+.heading {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(32px, 3.5vw, 50px);
+  font-weight: 300;
+  line-height: 1.12;
+  color: var(--ink);
+  margin: 0 0 28px;
+}
+
+.heading em {
+  color: var(--sage);
+  font-style: italic;
+}
+
+.blockquote {
+  font-family: var(--font-cormorant), serif;
+  font-size: 21px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.58;
+  color: var(--sage-deep);
+  border-left: 2px solid var(--gold);
+  padding-left: 24px;
+  margin: 0 0 28px;
+}
+
+.bioParas {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.bioParas p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.88;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 36px;
+}
+
+.tag {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--sage-deep);
+  border: 1px solid var(--sage-light);
+  padding: 8px 16px;
+}

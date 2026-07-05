@@ -1,0 +1,323 @@
+/* Hero */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: var(--hero-brown);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.heroPattern {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.17;
+}
+
+.heroBar {
+  position: absolute;
+  left: 0;
+  top: 22%;
+  height: 56%;
+  width: 3px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--gold) 25%,
+    var(--gold) 75%,
+    transparent
+  );
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 140px 80px 120px;
+  width: 100%;
+  animation: fadeUp 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (max-width: 767px) {
+  .heroInner {
+    padding: 140px 24px 100px;
+  }
+}
+
+.heroH1 {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(52px, 6.5vw, 94px);
+  font-weight: 300;
+  line-height: 1.05;
+  color: var(--cream);
+  margin: 0 0 28px;
+  max-width: 860px;
+}
+
+.heroH1 em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.heroLede {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.78;
+  color: rgba(250, 248, 243, 0.62);
+  max-width: 510px;
+  margin: 0 0 52px;
+}
+
+.heroCtas {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.scrollHint {
+  position: absolute;
+  bottom: 48px;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .scrollHint {
+    left: 24px;
+  }
+}
+
+.scrollLine {
+  width: 1px;
+  height: 52px;
+  background: linear-gradient(to bottom, var(--gold), transparent);
+  animation: scrollPulse 2.8s ease-in-out infinite;
+  transform-origin: top;
+}
+
+.scrollLabel {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(250, 248, 243, 0.28);
+  writing-mode: vertical-rl;
+}
+
+/* Credentials bar */
+.credentials {
+  background: var(--sage-dark);
+  padding: 20px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.credentials span {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--linen);
+  padding: 6px 32px;
+}
+
+.credentials .divider {
+  width: 1px;
+  height: 18px;
+  background: rgba(246, 244, 239, 0.25);
+}
+
+/* Reality section */
+.reality {
+  background: var(--linen);
+  padding: 100px 80px;
+}
+
+@media (max-width: 767px) {
+  .reality {
+    padding: 72px 24px;
+  }
+}
+
+.realityHeading {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(36px, 4.5vw, 64px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--ink);
+  margin: 0 0 20px;
+  max-width: 680px;
+}
+
+.realityLede {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.82;
+  color: var(--ink-soft);
+  max-width: 540px;
+  margin: 0 0 72px;
+}
+
+.realityGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: var(--hairline);
+}
+
+@media (max-width: 1099px) {
+  .realityGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .realityGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.realityCard {
+  background: var(--cream);
+  padding: 52px 40px;
+}
+
+.realityNum {
+  font-family: var(--font-cormorant), serif;
+  font-size: 70px;
+  font-weight: 300;
+  color: rgba(124, 145, 129, 0.2);
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.realityCard h3 {
+  font-family: var(--font-cormorant), serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 14px;
+  line-height: 1.25;
+}
+
+.realityCard p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.82;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* Testimonials */
+.testimonials {
+  background: var(--cream);
+  padding: 100px 80px;
+}
+
+@media (max-width: 767px) {
+  .testimonials {
+    padding: 72px 24px;
+  }
+}
+
+.testimonialsHeading {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(32px, 3.5vw, 50px);
+  font-weight: 300;
+  color: var(--ink);
+  margin: 0 0 60px;
+}
+
+.testimonialGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1099px) {
+  .testimonialGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonialGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.testimonialCard {
+  background: var(--linen);
+  padding: 44px 36px;
+  transition: transform 0.3s;
+}
+
+.testimonialCard:hover {
+  transform: translateY(-4px);
+}
+
+.quoteMark {
+  font-family: var(--font-cormorant), serif;
+  font-size: 52px;
+  font-weight: 300;
+  color: var(--gold);
+  line-height: 0.72;
+  margin-bottom: 18px;
+}
+
+.testimonialCard p {
+  font-family: var(--font-cormorant), serif;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 0 0 28px;
+}
+
+.testimonialAuthor {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.testimonialAvatar {
+  width: 42px;
+  height: 42px;
+  background: var(--off-white-soft);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.testimonialName {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.testimonialRole {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--bronze);
+}
+
+/* Section eyebrow + CTA used across page */
+.sectionInner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
