@@ -18,7 +18,8 @@ const UPCOMING_EVENTS = [
     meta: "9:30am – 11:00am · Stillness Reset Co, Melbourne",
     link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "Over 1.5 hours, we will move through gentle breathwork, energy healing, and chakra clearing to melt away your stress.",
+    excerpt: "Over 1.5 hours, we will move through gentle breathwork, energy healing, and chakra clearing to melt away your stress",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782384709458-YT906ITSXUPAIUURSTF0/1.+Inner+Healing+Sanctuary.jpg",
   },
   {
     day: "10",
@@ -26,11 +27,12 @@ const UPCOMING_EVENTS = [
     year: "2026",
     tag: "Sound Bath",
     tagColor: "#7C9181",
-    title: "Sound Bath Meditation - Under The Night Sky",
+    title: "SOUND BATH MEDITATION- Under The Night Sky",
     meta: "7:00pm – 8:00pm · Stillness Reset Co, Melbourne",
     link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "Join our sound bath meditation under the night Sky. Step away from the noise of the week and end your Friday by allowing resonant healing frequencies to wash away accumulated stress.",
+    excerpt: "Join our sound bath meditation under the night Sky. Step away from the noise of the week and end your Friday by allowing resonant healing frequencies to wash away accumulated stress. In this immersive acoustic journey, we use therapeutic sound to create vibrations that work on a cellular level. These frequencies help to guide your brainwaves into a deep, restorative state, effortlessly quieting the conscious mind and allowing the physical body to profoundly relax. Set under the canopy of the night sky, this session is a beautiful opportunity to restore your energetic balance, harmonise your nervous system, and step into the weekend feeling completely reset and aligned. The Benefits of this Practice Include: Cellular Harmony: Utilises resonant frequencies to restore balance and harmony on a cellular and energetic level. Deep Physical Relaxation: releases tension built up throughout the week. Quiet Mind: Slows brainwave activity to quiet the constant stream of conscious thoughts and mental chatter. Improved Sleep Quality: Promotes a state of profound relaxation that carries over into deeper, more restorative sleep.",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782386546981-MKEAUA5XZMN21CHZ7LWU/2.+Sound+Bath+10+July.jpg",
   },
   {
     day: "12",
@@ -42,7 +44,8 @@ const UPCOMING_EVENTS = [
     meta: "4:00pm – 5:00pm · Stillness Reset Co, Melbourne",
     link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "Curious about Yin Yoga but not sure where to start? This Sunday, join me for a beginner-friendly Yin Yoga Trial class!",
+    excerpt: "Curious about Yin Yoga but not sure where to start? 🧘‍♀️ This Sunday, join me for a beginner-friendly Yin Yoga Trial class!",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782386115573-LQ7H06ARRM8BJ4D9SOVW/3.+Yin+Yoga+12+July+%281%29.jpg",
   },
   {
     day: "18",
@@ -50,11 +53,12 @@ const UPCOMING_EVENTS = [
     year: "2026",
     tag: "Sound Bath",
     tagColor: "#7C9181",
-    title: "Sound Bath Meditation at High St Holistic",
-    meta: "4:00pm – 5:00pm · High Street Holistic, Preston",
+    title: "Sound bath Meditation at High st Holistic Preston",
+    meta: "4:00pm – 5:00pm · High Street Holistic",
     link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "Wash away the stress of your busy week with a deeply relaxing Sound Bath. If you find it hard to meditate in silence because your mind is always racing, a sound bath is the perfect solution.",
+    excerpt: "Wash away the stress of your busy week with a deeply relaxing Sound Bath. If you find it hard to meditate in silence because your mind is always racing, a sound bath is the perfect solution. You do not need any experience at all, your only job is to lie down, close your eyes, and let your body rest.",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782388771799-CV4CW2Y7UL1AYP816JMR/Soundbath+18+July+preston.jpg",
   },
   {
     day: "26",
@@ -62,11 +66,12 @@ const UPCOMING_EVENTS = [
     year: "2026",
     tag: "Women's Circle",
     tagColor: "#7C9181",
-    title: "Women's Circle for Mindfulness & Self-Love",
+    title: "WOMEN’S CIRCLE for Mindfulness & Self-love",
     meta: "10:00am – 11:30am · Stillness Reset Co, Melbourne",
     link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "Pause, reconnect, and nurture your inner self. Join our intimate women's circle to step out of the daily rush. Through guided meditation and restorative mindfulness practices, we will create a safe sanctuary.",
+    excerpt: "Pause, reconnect, and nurture your inner self. Join our intimate women's circle to step out of the daily rush. Through guided meditation and restorative mindfulness practices, we will create a safe sanctuary for you to slow down, regulate, and cultivate profound self-love. Give yourself permission to just be .",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782386751656-UCF0KCBNU5PGVSZ42UGX/5.+Women%E2%80%99s+Circle+26+July.jpg",
   },
   {
     day: "29",
@@ -74,11 +79,12 @@ const UPCOMING_EVENTS = [
     year: "2026",
     tag: "Day Retreat",
     tagColor: "#7C9181",
-    title: "Stillness Reset - Winter Day Retreat at Peninsula Hot Springs",
+    title: "Stillness Reset- Winter Day Retreat at Peninsula Hot Spring",
     meta: "9:30am – 4:00pm · Mornington Peninsula Hotspring",
     link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "An immersive day-long wellness retreat at Mornington Peninsula Hot Springs. Reconnect with nature and regulate your nervous system.",
+    excerpt: "",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782871548415-MTW595R3WI5WC6IRYF5P/Soulflow+Peninsula+Sat+29+August.jpg",
   },
   {
     day: "03",
@@ -86,11 +92,12 @@ const UPCOMING_EVENTS = [
     year: "2026",
     tag: "Day Retreat",
     tagColor: "#7C9181",
-    title: "Soulflow Yoga & Healing Retreat - Ubud, Bali",
+    title: "Soulflow Yoga & Healing Retreat- Ubud Bali",
     meta: "TBA · Ubud- Bali",
     link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "Reconnect. Rejuvenate. Flow. Escape to the spiritual heart of Ubud for a 6-day immersive journey of self-discovery. Soulflow is designed for anyone seeking to hit 'reset,' heal, and find balance.",
+    excerpt: "Reconnect. Rejuvenate. Flow. Escape to the spiritual heart of Ubud for a 6-day immersive journey of self-discovery. Soulflow is designed for anyone seeking to hit \"reset,\" heal, and find balance amidst lush rice paddies and tropical greenery. Whether you are looking for deep relaxation, spiritual growth, or simply a break from the noise of daily life, this all-inclusive retreat provides the perfect sanctuary to nourish your mind, body, and soul.",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782810691297-NZI28ZM69UDWPQ61FD4A/SOULFLOW+new.jpeg",
   },
 ];
 
@@ -102,9 +109,11 @@ const PAST_EVENTS = [
     tag: "Energy Healing",
     tagColor: "#7C9181",
     title: "Kundalini Revive Energy Healing",
-    meta: "10:00am – 11:30am · The space between, Melbourne",
+    meta: "10:00am – 11:30am · The space between",
+    link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "A deeply restorative energy healing session focused on activating your inner flow and releasing mental blockages.",
+    excerpt: "",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1777679522553-3D4RSD7UXN6RZRII3FFL/Kundalini+Revive+Session+April+Melbourne+%28Instagram+Post+%2845%29%29+%281%29.jpg",
   },
   {
     day: "21",
@@ -112,10 +121,12 @@ const PAST_EVENTS = [
     year: "2026",
     tag: "Women's Circle",
     tagColor: "#7C9181",
-    title: "Women's Circle for Mindfulness & Self-Love",
+    title: "WOMEN’S CIRCLE for Mindfulness & Self-love",
     meta: "10:00am – 11:30am · Stillness Reset Co, Melbourne",
+    link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "An intimate gathering of women focusing on gentle breathwork, meditation, and self-love practices to regulate the nervous system.",
+    excerpt: "Pause, reconnect, and nurture your inner self. Join our intimate women's circle to step out of the daily rush. Through guided meditation and restorative mindfulness practices, we will create a safe sanctuary for you to slow down, regulate, and cultivate profound self-love. Give yourself permission to just be .",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1777289862182-NYZWKIMEUQ1UFOMNPA36/Women%E2%80%99s+%28Instagram+Post+%2845%29%29.jpg",
   },
   {
     day: "14",
@@ -123,10 +134,12 @@ const PAST_EVENTS = [
     year: "2026",
     tag: "Wellness Event",
     tagColor: "#7C9181",
-    title: "Workshop 2: Quantum Radiance - Cellular Reset for Emotional Regulation During Menopause",
-    meta: "9:00am – 12:00pm · Satori Hair, Melbourne",
+    title: "𝗪𝗢𝗥𝗞𝗦𝗛𝗢𝗣 𝟮: 𝗤𝘂𝗮𝗻𝘁𝘂𝗺 𝗥𝗮𝗱𝗶𝗮𝗻𝗰𝗲-𝘾𝙚𝙡𝙡𝙪𝙡𝙖𝙧 𝙍𝙚𝙨𝙚𝙩 𝙛𝙤𝙧 𝙀𝙢𝙤𝙩𝙞𝙤𝙣𝙖𝙡 𝙍𝙚𝙜𝙪𝙡𝙖𝙩𝙞𝙤𝙣 𝘿𝙪𝙧𝙞𝙣𝙜 𝙈𝙚𝙣𝙤𝙥𝙖𝙪𝙨𝙚",
+    meta: "9:00am – 12:00pm · Satori Hair",
+    link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "A 3-hour immersion into the emotional and physical landscapes of menopause. Move beyond 'just enduring' the shifts and learn to navigate this transition with body-based tools.",
+    excerpt: "A 3-hour immersion into the emotional and physical landscapes of menopause. Move beyond \"just enduring\" the shifts and learn to navigate this transition with practical, body-based tools for regulation and ease.",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1774433402493-J6UR09W6LACAKKYIFIC5/Quantum+radiance+2.png",
   },
   {
     day: "12",
@@ -134,10 +147,12 @@ const PAST_EVENTS = [
     year: "2026",
     tag: "Sound Bath",
     tagColor: "#7C9181",
-    title: "Sound Bath Meditation - Under The Night Sky",
+    title: "SOUND BATH MEDITATION- Under The Night Sky",
     meta: "7:00pm – 8:00pm · Stillness Reset Co, Melbourne",
+    link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "A beautiful evening session under the night sky to restore energetic alignment and calm the mind using therapeutic frequencies.",
+    excerpt: "Join our sound bath meditation under the night Sky. Step away from the noise of the week and end your Friday by allowing resonant healing frequencies to wash away accumulated stress. In this immersive acoustic journey, we use therapeutic sound to create vibrations that work on a cellular level. These frequencies help to guide your brainwaves into a deep, restorative state, effortlessly quieting the conscious mind and allowing the physical body to profoundly relax. Set under the canopy of the night sky, this session is a beautiful opportunity to restore your energetic balance, harmonise your nervous system, and step into the weekend feeling completely reset and aligned. The Benefits of this Practice Include: Cellular Harmony: Utilises resonant frequencies to restore balance and harmony on a cellular and energetic level. Deep Physical Relaxation: releases tension built up throughout the week. Quiet Mind: Slows brainwave activity to quiet the constant stream of conscious thoughts and mental chatter. Improved Sleep Quality: Promotes a state of profound relaxation that carries over into deeper, more restorative sleep.",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1778323200602-WG6ST30IZLHJD7T45P7O/Sound+Bath+.png",
   },
   {
     day: "07",
@@ -147,8 +162,10 @@ const PAST_EVENTS = [
     tagColor: "#7C9181",
     title: "Empowering Breathwork: A Somatic Journey to Release Stagnation and Reclaim Inner Calm",
     meta: "10:00am – 11:00am · Stillness Reset Co, Melbourne",
+    link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "A somatic breathwork journey at our Glen Waverley studio to release stored stress, regulate the body, and expand clarity.",
+    excerpt: "Breathwork is a powerful yet simple practice that uses your breath to reset your body, calm your mind, and release stored stress and emotions. The ancient practice of Breathwork have the power to assist in an individual’s personal evolution and can lead deeper states of wisdom. Join me at the Stillness Reset Co studio in Glen Waverley for a profound morning of somatic release and energetic alignment. The Benefits of this Practice Include: 🤍 Reduce stress and anxiety 🤍 Improve focus and mental clarity 🤍 Boost energy naturally Because breathwork is such a deeply transformative practice. Please be aware that these sessions can evoke deep physiological and emotional responses. This is simply your body's natural way of clearing out stagnant energy, unprocessed feelings, and stored tension. However, for your safety, we strongly recommend seeking clearance from a healthcare professional before deciding to purchase a ticket if you fall under any of the following categories: * Cardiovascular conditions * Personal history of heart attacks, high blood pressure, or angina * Glaucoma or retinal detachment * Recent serious injury or surgery * Any condition that requires you to take medication to assist with breathing or lowering blood pressure * Personal history of PTSD, panic attacks, or psychosis * Personal history of aneurysms (or family history) * You are currently in the 2nd or 3rd trimester of pregnancy or are breastfeeding",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1778322728582-RVX7JYIQO4TF0FNQRD2E/Empowering+Breathwork.jpg",
   },
   {
     day: "06",
@@ -156,10 +173,12 @@ const PAST_EVENTS = [
     year: "2026",
     tag: "Day Retreat",
     tagColor: "#7C9181",
-    title: "Soulflow Winter Day Retreat at Peninsula Hot Springs",
+    title: "SOULFLOW Winter Day Retreat at Peninsula Hot Springs",
     meta: "10:00am – 4:00pm · Mornington Peninsula Hotspring",
+    link: "https://www.trybooking.com",
     soldOut: true,
-    excerpt: "Our signature day retreat combining sound healing, breathwork, and thermal hot springs bathing. Completely sold out.",
+    excerpt: "",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1775446603408-XGGAZSY5PWP2KJ46V29Z/Soulflow+Peninsula+Sat+6+June.png",
   },
   {
     day: "08",
@@ -167,10 +186,12 @@ const PAST_EVENTS = [
     year: "2026",
     tag: "Sound Bath",
     tagColor: "#7C9181",
-    title: "Sound Bath Meditation - Under The Night Sky",
+    title: "SOUND BATH MEDITATION- Under The Night Sky",
     meta: "7:00pm – 8:00pm · Stillness Reset Co, Melbourne",
+    link: "https://www.trybooking.com",
     soldOut: true,
-    excerpt: "A celestial sound bath experience under the glass roof of our studio, aligned with the lunar cycle for deep restoration.",
+    excerpt: "Join our sound bath meditation under the stars. Experience the profound connection between the Earth and the Cosmos at our upcoming Celestial Sound Bath Journey . This isn't your typical indoor meditation. At the Stillness Reset Co. home studio in Glen Waverley , we invite you to lie back and look upward. Our unique clear-roof studio allows you to gaze directly at the moon and stars as you are enveloped in a sea of therapeutic sound. Through the power of frequency and intention, this one-hour immersion is designed to: Downregulate the nervous system for deep restoration. Harmonize your energetic field with the lunar cycle. Expand your awareness through heart-brain coherence.",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1777187204144-ZD23CLVJ6R88EBVY4OZ1/Sound+Bath+8+May+.jpg",
   },
   {
     day: "03",
@@ -179,9 +200,11 @@ const PAST_EVENTS = [
     tag: "Wellness Event",
     tagColor: "#7C9181",
     title: "Workshop 1: Quantum Radiance - Cellular Reset for Hormonal Health & Balance",
-    meta: "9:00am – 12:00pm · Satori Hair, Melbourne",
+    meta: "9:00am – 12:00pm · Satori Hair",
+    link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "A 3-hour deep dive into hormone health and nervous system regulation using science-backed somatic practices.",
+    excerpt: "A 3-hour immersion into hormonal health and nervous system regulation. Move beyond \"pushing through\" and learn to support your body with soft, effective, science-backed tools.",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1774431726349-YUASJS1SWMBP4CUURMFF/Quantum+Radiance+1.png",
   },
   {
     day: "26",
@@ -189,10 +212,12 @@ const PAST_EVENTS = [
     year: "2026",
     tag: "Women's Circle",
     tagColor: "#7C9181",
-    title: "Women's Circle for Mindfulness & Self-Love",
+    title: "WOMEN’S CIRCLE for Mindfulness & Self-love",
     meta: "10:00am – 11:30am · Stillness Reset Co, Melbourne",
+    link: "https://www.trybooking.com",
     soldOut: true,
-    excerpt: "A warm and safe women's circle to slow down, share space, and regulate our internal systems through gentle ritual.",
+    excerpt: "Pause, reconnect, and nurture your inner self. Join our intimate women's circle to step out of the daily rush. Through guided meditation and restorative mindfulness practices, we will create a safe sanctuary for you to slow down, regulate, and cultivate profound self-love. Give yourself permission to just be .",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1777187585988-30IWVTRP96DJPG74FFLO/Women%E2%80%99s+%28Instagram+Post+%2845%29%29+%281%29.png",
   },
   {
     day: "11",
@@ -201,9 +226,11 @@ const PAST_EVENTS = [
     tag: "Sound Bath",
     tagColor: "#7C9181",
     title: "Pottery Workshop & Soundhealing with Dana & Titin",
-    meta: "9:30am – 12:30pm · Avonhurst Drive, Melbourne",
+    meta: "9:30am – 12:30pm · Avonhurst Drive",
+    link: "https://www.trybooking.com",
     soldOut: false,
-    excerpt: "A tactile and auditory creative collaboration blending the earthiness of pottery-making with soothing sound frequencies.",
+    excerpt: "",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1773039368909-TDYGECKWKEXV88E6IR8J/Pottery+Workshop.png",
   },
   {
     day: "21",
@@ -211,10 +238,12 @@ const PAST_EVENTS = [
     year: "2026",
     tag: "Sound Bath",
     tagColor: "#7C9181",
-    title: "Sound Bath Meditation at High St Holistic Preston",
-    meta: "7:00pm – 8:00pm · High Street Holistic, Preston",
+    title: "Sound bath Meditation at High st Holistic Preston Saturday 21 March 2026",
+    meta: "7:00pm – 8:00pm · High Street Holistic",
+    link: "https://www.trybooking.com",
     soldOut: true,
-    excerpt: "A deeply relaxing Sound Bath in the beautiful Preston space. Completely sold out.",
+    excerpt: "",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1770710552098-2L0CDXN2Z8FC9KXEW3FJ/Soundbath+21+Mar.png",
   },
   {
     day: "01",
@@ -222,10 +251,12 @@ const PAST_EVENTS = [
     year: "2026",
     tag: "Day Retreat",
     tagColor: "#7C9181",
-    title: "Quiet Earth Day Retreat - Second Session",
-    meta: "10:00am – 4:00pm · Mornington Peninsula Hot Springs",
+    title: "Quite Earth Day retreat Second Session",
+    meta: "10:00am – 4:00pm · Mornington Peninsula Hotspring",
+    link: "https://www.trybooking.com",
     soldOut: true,
-    excerpt: "Due to high demand, a second session of our restorative Peninsula Hot Springs day retreat was held.",
+    excerpt: "",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1764994332918-UUU8EHNY83MUHH8NA41A/Quiet+Earth+Day+Retreat+-+Portrait+%282%29.png",
   },
   {
     day: "28",
@@ -233,10 +264,12 @@ const PAST_EVENTS = [
     year: "2026",
     tag: "Day Retreat",
     tagColor: "#7C9181",
-    title: "Quiet Earth Day Retreat",
-    meta: "10:00am – 4:00pm · Mornington Peninsula Hot Springs",
+    title: "Quite Earth Day retreat",
+    meta: "10:00am – 4:00pm · Mornington Peninsula Hotspring",
+    link: "https://www.trybooking.com",
     soldOut: true,
-    excerpt: "A fully booked immersive retreat designed to reset body and mind amidst natural thermal pools.",
+    excerpt: "",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1764994332918-UUU8EHNY83MUHH8NA41A/Quiet+Earth+Day+Retreat+-+Portrait+%282%29.png",
   },
   {
     day: "04",
@@ -245,9 +278,11 @@ const PAST_EVENTS = [
     tag: "Day Retreat",
     tagColor: "#7C9181",
     title: "Quiet Earth Yoga Retreat",
-    meta: "Weekend · 393 Dean-Barkstead Road, Rocklyn",
+    meta: "TBA · 393 Dean-Barkstead Road Rocklyn, VIC, 3364 Australia",
+    link: "https://www.trybooking.com",
     soldOut: true,
-    excerpt: "A soul-nourishing weekend escape in Rocklyn to rest, practice yoga, and reconnect with our authentic selves.",
+    excerpt: "Join us for soulful weekend to rest, reconnect & return to your true self",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1752412633992-K3PQV470LIU00F01HWJG/event-image.png",
   },
   {
     day: "23",
@@ -256,9 +291,11 @@ const PAST_EVENTS = [
     tag: "Sound Bath",
     tagColor: "#7C9181",
     title: "Sound Bath Meditation with Titin",
-    meta: "4:30pm – 5:30pm · Yoga Cave, Melbourne",
+    meta: "4:30pm – 5:30pm · Yoga Cave",
+    link: "https://www.trybooking.com",
     soldOut: true,
-    excerpt: "A quiet afternoon session using crystalline sound bowls to help participants sink into a deep state of meditation.",
+    excerpt: "Step into a space of calm and healing. Let the sound guide you home to yourself.",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1753879563025-RSPDKJ8X8I33GS5A7D5Z/sound-bath-event.png",
   },
   {
     day: "25",
@@ -266,10 +303,12 @@ const PAST_EVENTS = [
     year: "2025",
     tag: "Wellness Event",
     tagColor: "#7C9181",
-    title: "Heartfelt High Tea Experience",
-    meta: "2:00pm – 5:00pm · Templestowe Lower, Melbourne",
+    title: "𝗛𝗲𝗮𝗿𝘁𝗳𝗲𝗹𝘁 𝗛𝗶𝗴𝗵 𝗧𝗲𝗮 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲",
+    meta: "2:00pm – 5:00pm · 200 High Street Templestowe Lower, VIC, 3107 Australia",
+    link: "https://www.trybooking.com",
     soldOut: true,
-    excerpt: "A special celebratory event in honor of Mother's Day, combining wellness practices and connection with a high tea experience.",
+    excerpt: "To celebrate Mother’s Day, take a well-deserved break and treat yourself.",
+    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1753881080234-VFE1C5E1NG8RNJJDI4VE/hight-tea-event.png",
   },
 ];
 
@@ -309,6 +348,13 @@ export default function EventsPage() {
                   <div className={styles.dateYear}>{e.year}</div>
                 </div>
                 <div className={styles.divider} />
+                
+                {e.image_url && (
+                  <div className={styles.thumbnail}>
+                    <img src={e.image_url} alt={e.title} loading="lazy" />
+                  </div>
+                )}
+                
                 <div className={styles.details}>
                   <div className={styles.tag} style={{ color: e.tagColor }}>
                     {e.tag}
@@ -363,6 +409,13 @@ export default function EventsPage() {
                     <div className={styles.dateYear}>{e.year}</div>
                   </div>
                   <div className={styles.divider} />
+                  
+                  {e.image_url && (
+                    <div className={styles.thumbnail}>
+                      <img src={e.image_url} alt={e.title} loading="lazy" />
+                    </div>
+                  )}
+                  
                   <div className={styles.details}>
                     <div className={styles.tag}>{e.tag}</div>
                     <div className={styles.title}>{e.title}</div>

@@ -128,6 +128,35 @@
   }
 }
 
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--hairline);
+  position: relative;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.row:hover .thumbnail img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+  .thumbnail {
+    width: 60px;
+    height: 60px;
+  }
+}
+
 .details {
   flex: 1;
   min-width: 250px;
@@ -270,6 +299,18 @@
 
 .pastRow .title {
   color: var(--ink-soft);
+}
+
+.pastRow .thumbnail img {
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.pastRow:hover .thumbnail img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
 }
 
 .pastStatus {
