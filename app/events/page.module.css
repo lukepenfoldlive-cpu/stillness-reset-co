@@ -69,11 +69,12 @@
   gap: 32px;
   align-items: center;
   flex-wrap: wrap;
+  flex: 1;
 }
 
 .date {
   text-align: center;
-  min-width: 48px;
+  min-width: 54px;
 }
 
 .dateDay {
@@ -93,10 +94,43 @@
   color: var(--bronze);
 }
 
+.dateYear {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
 .divider {
   width: 1px;
-  height: 44px;
+  height: 54px;
   background: var(--hairline);
+}
+
+@media (max-width: 767px) {
+  .divider {
+    display: none;
+  }
+  .rowLeft {
+    gap: 16px;
+  }
+  .date {
+    text-align: left;
+    min-width: 100%;
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+  }
+  .dateYear {
+    margin-top: 0;
+  }
+}
+
+.details {
+  flex: 1;
+  min-width: 250px;
 }
 
 .tag {
@@ -114,6 +148,10 @@
   font-weight: 500;
   color: var(--ink);
   margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .meta {
@@ -121,6 +159,36 @@
   font-size: 13px;
   font-weight: 300;
   color: var(--bronze);
+}
+
+.excerpt {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 8px 0 0;
+  max-width: 700px;
+}
+
+.soldOutBadge {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--terracotta-card);
+  color: var(--cream);
+  padding: 2px 6px;
+  border-radius: 2px;
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .bookBtn {
@@ -131,6 +199,9 @@
   text-transform: uppercase;
   padding: 12px 26px;
   transition: background 0.2s;
+  text-align: center;
+  min-width: 120px;
+  display: inline-block;
 }
 
 .bookBtnBrown {
@@ -149,4 +220,75 @@
 
 .bookBtnGold:hover {
   background: var(--btn-gold-dark);
+}
+
+.soldOutText {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 12px 26px;
+  color: var(--bronze);
+  background: rgba(122, 78, 56, 0.1);
+  text-align: center;
+  min-width: 120px;
+}
+
+/* Past Events section */
+.pastSection {
+  margin-top: 100px;
+  border-top: 1px solid var(--hairline);
+  padding-top: 80px;
+}
+
+.pastRow {
+  background: var(--cream);
+  padding: 28px 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  opacity: 0.65;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+.pastRow:hover {
+  opacity: 0.9;
+  background: var(--off-white-soft);
+}
+
+/* Dim colors in past rows using CSS Module hierarchy */
+.pastRow .dateDay {
+  color: var(--ink-soft);
+}
+
+.pastRow .tag {
+  color: var(--ink-soft);
+}
+
+.pastRow .title {
+  color: var(--ink-soft);
+}
+
+.pastStatus {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  padding: 8px 18px;
+  border: 1px solid rgba(51, 43, 37, 0.15);
+  background: transparent;
+  border-radius: 2px;
+  text-align: center;
+  min-width: 110px;
+}
+
+.pastStatusSoldOut {
+  color: var(--bronze);
+  border-color: rgba(122, 78, 56, 0.20);
+  background: rgba(122, 78, 56, 0.04);
 }
