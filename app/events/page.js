@@ -1,4 +1,3 @@
-import Reveal from "@/components/Reveal";
 import styles from "./page.module.css";
 
 export const metadata = {
@@ -319,28 +318,27 @@ export default function EventsPage() {
         {/* Upcoming Events Section */}
         <div className={styles.head}>
           <div>
-            <Reveal className="eyebrow">
+            <div className="eyebrow">
               <div className="line" />
               <span>Upcoming Events</span>
-            </Reveal>
-            <Reveal delay={100} as="h2" className={styles.heading}>
+            </div>
+            <h2 className={styles.heading}>
               Experiences to look forward to
-            </Reveal>
+            </h2>
           </div>
-          <Reveal
-            as="a"
+          <a
             className={styles.viewAll}
             href="https://www.trybooking.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             View All on TryBooking →
-          </Reveal>
+          </a>
         </div>
 
         <div className={styles.list}>
-          {UPCOMING_EVENTS.map((e, i) => (
-            <Reveal key={e.title + e.day + e.month} delay={i * 80} className={styles.row}>
+          {UPCOMING_EVENTS.map((e) => (
+            <div key={e.title + e.day + e.month} className={styles.row}>
               <div className={styles.rowLeft}>
                 {e.image_url && (
                   <div className={styles.thumbnail}>
@@ -381,7 +379,7 @@ export default function EventsPage() {
                   </a>
                 )}
               </div>
-            </Reveal>
+            </div>
           ))}
         </div>
 
@@ -389,19 +387,19 @@ export default function EventsPage() {
         <div className={styles.pastSection}>
           <div className={styles.head}>
             <div>
-              <Reveal className="eyebrow">
+              <div className="eyebrow">
                 <div className="line" />
                 <span>Past Events</span>
-              </Reveal>
-              <Reveal delay={100} as="h2" className={styles.heading}>
+              </div>
+              <h2 className={styles.heading}>
                 Moments of stillness &amp; reset
-              </Reveal>
+              </h2>
             </div>
           </div>
 
           <div className={styles.list}>
-            {PAST_EVENTS.map((e, i) => (
-              <Reveal key={e.title + e.day + e.month + e.year} delay={i * 40} className={styles.pastRow}>
+            {PAST_EVENTS.map((e) => (
+              <div key={e.title + e.day + e.month + e.year} className={styles.pastRow}>
                 <div className={styles.rowLeft}>
                   {e.image_url && (
                     <div className={styles.thumbnail}>
@@ -428,7 +426,7 @@ export default function EventsPage() {
                     {e.soldOut ? "Sold Out" : "Completed"}
                   </div>
                 </div>
-              </Reveal>
+              </div>
             ))}
           </div>
         </div>
