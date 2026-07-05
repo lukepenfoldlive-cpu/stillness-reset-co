@@ -15,7 +15,7 @@ const UPCOMING_EVENTS = [
     tagColor: "#7C9181",
     title: "Inner Healing Sanctuary (Small Group Session)",
     meta: "9:30am – 11:00am · Stillness Reset Co, Melbourne",
-    link: "https://www.trybooking.com/events/landing/1603957?embed",
+    link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Over 1.5 hours, we will move through gentle breathwork, energy healing, and chakra clearing to melt away your stress",
     image_url: "/images/events/inner-healing-sanctuary-small-group-session-8-22-j-wednesday-8-july-2026.jpg",
